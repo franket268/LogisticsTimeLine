@@ -1,4 +1,4 @@
-package com.gzh.logisticstimeline;
+package com.github.franket268.logisticstimeline;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

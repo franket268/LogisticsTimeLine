@@ -1,8 +1,9 @@
-package com.gzh.logisticstimeline;
+package com.github.franket268.logisticstimeline;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import com.gzh.library.LogisticsTimeline;
+import com.github.franket268.LogisticsTimeline;
+import com.gzh.logisticstimeline.R;
 
 
 public class MainActivity extends ActionBarActivity {

@@ -1,4 +1,4 @@
-package com.gzh.library;
+package com.github.franket268;
 
 
 import android.annotation.TargetApi;
@@ -11,6 +11,7 @@ import android.os.Build;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
+import com.gzh.library.R;
 
 /**
  * Created by gongzhanhong on 15/2/3.
@@ -55,7 +56,7 @@ public class LogisticsTimeline extends View {
         ()));
     mLineWidth = (int) (TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 2, getResources().getDisplayMetrics()));
     mTextSize = (int) ((TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 16, getResources().getDisplayMetrics())));
-    mTextColor = getResources().getColor(R.color.abc_secondary_text_material_light);
+    mTextColor = getResources().getColor(android.R.color.black);
     mLineColor = getResources().getColor(android.R.color.darker_gray);
     mHorizontalSpacing = (int) (TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 30, getResources()
         .getDisplayMetrics()));
