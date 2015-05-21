@@ -19,7 +19,6 @@ dependencies {
 # Usage
 
 Add an element in your XML menu:
-
   <com.github.franket268.LogisticsTimeline
     android:id="@+id/logisticsTimeline"
     android:layout_width="wrap_content"
