@@ -19,22 +19,35 @@ dependencies {
 # Usage
 
 Add an element in your XML menu:
+
   <com.github.franket268.LogisticsTimeline
+  
     android:id="@+id/logisticsTimeline"
+    
     android:layout_width="wrap_content"
+    
     android:layout_height="wrap_content"/>
  
 Then, set the logistics decription and logistcis date  in the your activty :
 
   @Override
+  
   protected void onCreate(Bundle savedInstanceState) {
+  
     super.onCreate(savedInstanceState);
+    
     setContentView(R.layout.activity_main);
+    
     LogisticsTimeline timeline = (LogisticsTimeline) findViewById(R.id.logisticsTimeline);
+    
     CharSequence[] logisticsDesc = {"arrived one city","arrived new city","mall shipped","order submit"};
+    
     CharSequence[] date ={"2015-4-12","2015-4-11","2015-3-1","2015-2-1"};
+    
     timeline.setDescArray(logisticsDesc);
+    
     timeline.setDateArray(date);
+    
   }
   
   
