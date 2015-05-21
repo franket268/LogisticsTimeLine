@@ -20,6 +20,8 @@ dependencies {
 
 Add an element in your XML menu:
 
+
+
   <com.github.franket268.LogisticsTimeline
   
     android:id="@+id/logisticsTimeline"
@@ -29,6 +31,8 @@ Add an element in your XML menu:
     android:layout_height="wrap_content"/>
  
 Then, set the logistics decription and logistcis date  in the your activty :
+
+
 
   @Override
   
