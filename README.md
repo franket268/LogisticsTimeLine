@@ -9,9 +9,11 @@ This is an android logistics timeline  widget which can display the progress of 
 
 The library is pushed to Maven Central as a AAR, so you just need to add the following dependency to your build.gradle.
 
+```java
 dependencies {
     compile 'com.github.manuelpeinado.glassactionbar:glassactionbar:0.3.0'
 }
+```
 
 
 # Usage
