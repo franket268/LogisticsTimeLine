@@ -11,7 +11,7 @@ The library is pushed to Maven Central as a AAR, so you just need to add the fol
 
 ```java
 dependencies {
-    compile 'com.github.manuelpeinado.glassactionbar:glassactionbar:0.3.0'
+      compile 'com.github.franket268.logisticstimeline:library:1.0'
 }
 ```
 
