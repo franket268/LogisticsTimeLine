@@ -18,14 +18,16 @@ dependencies {
 
 Add an element in your XML menu:
 
+```xml
   <com.github.franket268.LogisticsTimeline
     android:id="@+id/logisticsTimeline"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>
- 
+ ```
+
 Then, set the logistics decription and logistcis date  in the your activty :
 
-
+```java
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -36,7 +38,7 @@ Then, set the logistics decription and logistcis date  in the your activty :
     timeline.setDescArray(logisticsDesc);
     timeline.setDateArray(date);
   }
-  
+```
   
 # License
 
